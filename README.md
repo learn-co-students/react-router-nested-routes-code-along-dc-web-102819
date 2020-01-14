@@ -108,7 +108,7 @@ case, that is _all_ of our components.
 Notice what is happening on the second `Route`. When rendering a component
 through a `Route` with the `render` prop, the function accepts an argument,
 `routerProps`. When the path matches the URL, the `Route` will call the function
-inside `render` and pass in the current information available able the route,
+inside `render` and pass in the current information available to the route,
 including the URL path that caused the `Route` to render. This is not possible
 with the regular `component` prop on `Route`s we've seen before.
 
